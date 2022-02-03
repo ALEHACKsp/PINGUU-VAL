@@ -84,7 +84,7 @@ void AimbotHandling()
 	if (enemy.IsDormant())
 	{
 		string wep = pointer::current_weapon;
-		if (wep != "Knife" && wep != "Sheriff" && wep != "Operator" && wep != "Guardian" && wep != "Marshall")
+		if (wep != "Knife" && wep != "Sheriff" && wep != "AWP" && wep != "Guardian" && wep != "Marshall")
 		{
 			RCS(AimAngles, GetCameraCache().Rotation, Smooth + 0.1f);
 		}
