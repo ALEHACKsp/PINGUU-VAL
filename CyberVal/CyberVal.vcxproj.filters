@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Bullshit">
+      <UniqueIdentifier>{79d8c0e0-107c-40ff-b931-c2e9f3dd561e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImportantShit">
+      <UniqueIdentifier>{aa1c1904-8781-461f-b9ce-e276af58df6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShitCPP">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ShitCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.c">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.c">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClCompile>
+    <ClCompile Include="trampoline.c">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>ShitCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>ShitCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ShitCPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pointer.h">
+      <Filter>ImportantShit</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ImportantShit</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPLoop.h">
+      <Filter>ImportantShit</Filter>
+    </ClInclude>
+    <ClInclude Include="AimAnglesShit.h">
+      <Filter>ImportantShit</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.hh">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MinHook.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="sha_imp.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="trampoline.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Header Files\Bullshit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
