@@ -18,6 +18,8 @@ Use what you want, if you don't have a injector use this detected face injector
 
 https://cdn.discordapp.com/attachments/700841978480296040/938914596679471204/PinguuInjector.exe
 
+(Your cheat must be named pinguu.dll in the same folder)
+
 -> Works only for Windows 1803, 1809 !!
 
 
