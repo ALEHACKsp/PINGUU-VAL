@@ -1,5 +1,8 @@
 namespace Offsets
 {
+	uintptr_t oKey = 0x8FB6978; // 4.02
+	uintptr_t oState = 0x8FB6940; // 4.02
+
 	uintptr_t oLevel = 0x38;//ok
 	uintptr_t oGameInstance = 0x1A8;//ok
 	uintptr_t oLocalPlayers = 0x40;

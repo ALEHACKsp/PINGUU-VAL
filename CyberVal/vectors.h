@@ -472,7 +472,7 @@ uint64_t ReadWorld()
 	__try
 	{
 		// std::printf("valBase %p \n", valBase);
-		uint64_t key = read<uint64_t>(valBase + 0x9057F78);
+		uint64_t key = read<uint64_t>(valBase + Offsets::oKey);
 	//	std::printf("key %p \n", key);
 
 #pragma pack(push, 1)
@@ -481,7 +481,7 @@ uint64_t ReadWorld()
 			uint64_t Keys[7];
 		};
 #pragma pack(pop)
-		const auto state = read<State>(valBase + 0x9057F40);
+		const auto state = read<State>(valBase + Offsets::oState);
 	//	std::printf("state %p \n", state.Keys);
 
 		if (key != 0)
