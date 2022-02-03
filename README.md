@@ -12,6 +12,15 @@ I update the offsets here when I have time and feel like it. The current version
 
 The state+key is updated for 4.02 but never tested. 
 
+# Injector
+
+Use what you want, if you don't have a injector use this detected face injector 
+
+https://cdn.discordapp.com/attachments/700841978480296040/938914596679471204/PinguuInjector.exe
+
+-> Works only for Windows 1803, 1809 !!
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
