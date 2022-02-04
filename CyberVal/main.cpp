@@ -13,8 +13,6 @@
 
 #include <iostream>
 
-#include "Arduino.h"
-
 #include <d3d11.h>
 #include "include/MinHook.h"
 #pragma comment(lib, "d3d11.lib")
